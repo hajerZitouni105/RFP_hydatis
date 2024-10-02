@@ -1,0 +1,8 @@
+PyPDF2
+langdetect
+deep-translator
+google-generativeai
+pymongo
+flask
+google-cloud-aiplatform
+google-auth-oauthlib
