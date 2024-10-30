@@ -1,6 +1,6 @@
 ﻿# Response_to_call_for_proposal:
  
- ##**ABSTRACT**
+ **##ABSTRACT**
  
 This project covers the development and implementation of an AI-based solution to automate
 responses to Call for Proposals (CFP). The project leverages generative AI techniques,
@@ -10,7 +10,7 @@ generation, allowing users to create custom, high-quality responses quickly and 
 The system was implemented using Python for backend processing and React.js for the user
 interface, with data stored in a MongoDB database.
 
-##**Adapted Solution**
+**##Adapted Solution**
 
 We have developed an automated response solution for Requests for Proposals (RFPs) aimed at
 addressing the challenges associated with traditional methods. Our system leverages advanced
