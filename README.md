@@ -10,7 +10,7 @@ generation, allowing users to create custom, high-quality responses quickly and 
 The system was implemented using Python for backend processing and React.js for the user
 interface, with data stored in a MongoDB database.
 
-**##Adapted Solution**
+## Adapted Solution
 
 We have developed an automated response solution for Requests for Proposals (RFPs) aimed at
 addressing the challenges associated with traditional methods. Our system leverages advanced
@@ -28,13 +28,13 @@ and the projet acte d’engagement (projetae), are included in the responses.
 By synthesizing this wealth of information, our solution provides comprehensive and
 relevant responses, addressing the specific needs and expectations of our clients.
 
-#**Requirement Extraction**
+## Requirement Extraction
 
 The requirement extraction process involved analyzing the key documents related to each
 project. The focus was on extracting relevant technical and administrative information that
 would be used to generate responses for various proposal sections. These documents included:
 
-##*• Technical Specifications:*
+**• Technical Specifications:**
 
 – Context: This section details the project’s background, specifying the need for the
 project, the client, and the working environment.
@@ -61,7 +61,7 @@ extracted.
 experience required for the project team.
 
 
-##*• Administrative Clauses:*
+**• Administrative Clauses:**
 
 This document governs the legal and contractual obligations
 of the project. From it, we extracted the following:
@@ -106,7 +106,7 @@ that may arise.
 – Risks or Missing Information: Any potential risks, missing information, or
 unclear clauses were identified and flagged for resolution.
 
-#**Model Selection and Prompt Engineering**
+## Model Selection and Prompt Engineering*
 
 For text generation, we experimented with several models, including Mistral, Gamma2, and
 Gemini Pro 1.5, before settling on Gemini Pro 1.5 for its performance and suitability for our
@@ -117,7 +117,7 @@ tested parameters to ensure accurate and contextually appropriate responses. Thi
 crucial to avoid hallucinations, ensuring that the generated text aligned closely with the
 extracted requirements.
 
-##**Text Generation with Retrieval-Augmented Generation(RAG)**
+## Text Generation with Retrieval-Augmented Generation(RAG)
 
 We implemented the Retrieval-Augmented Generation (RAG) technique for generating responses.
 This process involved three key phases:
@@ -132,13 +132,13 @@ documents or sections matching the current proposal’s requirements.
 sections of the Mémoire Techniques, DUME, and Projet AE. This approach ensured the
 responses were accurate and contextually relevant.
 
-##**MongoDB Database Integration**
+## MongoDB Database Integration
 
 We utilized MongoDB to store both the extracted data from previous projects and the generated
 text. This database allowed us to efficiently query and retrieve relevant documents during the
 retrieval phase.
 
-##**Front-end and Back-end Implementation**
+## Front-end and Back-end Implementation
 
 The application was implemented using Flask for the back-end and React.js for the front-end.
 Flask handled API requests and integrated with Gemini Pro 1.5 for text generation, while
