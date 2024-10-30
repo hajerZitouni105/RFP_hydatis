@@ -1,6 +1,6 @@
 ﻿# Response_to_call_for_proposal:
  
- **##ABSTRACT**
+ ## ABSTRACT
  
 This project covers the development and implementation of an AI-based solution to automate
 responses to Call for Proposals (CFP). The project leverages generative AI techniques,
